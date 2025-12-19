@@ -188,6 +188,32 @@ footer {
   text-align: center;
 }
 
+
+
+
+/* ==========================
+   Back Button
+   ========================== */
+.back-btn {
+  align-self: flex-start;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 8px 16px;
+  border: 2px solid #4d7ea8;
+  border-radius: 6px;
+  background: transparent;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.back-btn:hover {
+  background: #4d7ea8;
+  color: #ffffff;
+}
+
+
 /* ==========================
    Responsive Design
    ========================== */
